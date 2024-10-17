@@ -1,1 +1,1 @@
-qemu-system-aarch64 -M virt -cpu cortex-a710 -smp 4 --accel tcg,thread=multi -m 4096 -bios BIOS.img -device VGA -device nec-usb-xhci -device usb-kbd -device usb-mouse -device usb-storage,drive=boot -drive if=none,id=boot,file="base_arm64.qcow2" -vnc :1
+qemu-system-aarch64 -M virt -cpu cortex-a710 -smp 4 --accel tcg,thread=multi -m 4096 -bios BIOS.img -device VGA -device nec-usb-xhci -device usb-kbd -device usb-mouse -device usb-storage,drive=boot -drive if=none,id=boot,file="base_arm64.qcow2"
